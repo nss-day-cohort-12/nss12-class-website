@@ -150,6 +150,15 @@ hr.small {
 
 /* Header */
 
+.vertical-space {
+  height: 150px;
+}
+
+.carousel-container {
+  margin: 10px;
+  border: 3px solid black;
+}
+
 .header {
     display: table;
     position: relative;

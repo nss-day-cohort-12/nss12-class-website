@@ -15,7 +15,12 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+li {
+    list-style: none;
+}
+a{
+    cursor: pointer;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -218,6 +223,26 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+/* Modal */
+.modalLinks{
+    color: black;
+}
+
+.modal-body h3{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.modal-body li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.portrate {
+    border: 1px outset silver;
+    min-height: 318px;
 }
 
 /* Map */

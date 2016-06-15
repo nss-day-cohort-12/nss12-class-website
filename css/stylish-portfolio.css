@@ -15,12 +15,21 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 li {
     list-style: none;
 }
 a{
     cursor: pointer;
 }
+
+/*tech jpegs followed by tech font and hr*/
+.techimg {       
+    height: 100px;
+    display: inline-block;
+    margin: .313em .313em 2.5em .313em;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -233,6 +242,22 @@ hr.small {
 .modal-body h3{
     text-align: center;
     margin-bottom: 0px;
+}
+
+@media (min-width: 620px) and (max-width: 700px) {
+  .modal-content img {
+    width: 90%;
+  }
+}
+@media (min-width: 664px) and (max-width: 730px) {
+  .modal-content img {
+    width: 74.5%;
+  }
+}
+@media (min-width: 730px) and (max-width: 810px) {
+  .modal-content img {
+    width: 69.5%;
+  }
 }
 
 .modal-body li {

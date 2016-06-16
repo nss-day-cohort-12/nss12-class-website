@@ -38,6 +38,7 @@ $(document).ready(function() {
     $('#map_iframe').addClass('scrolloff');
   });
 });
+
 $('#gulp').tooltip();
 $('#angular').tooltip();
 $('#dotnet').tooltip();

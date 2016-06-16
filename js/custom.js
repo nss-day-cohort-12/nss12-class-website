@@ -40,3 +40,22 @@ $(document).ready(function() {
 });
 
 $('#gulp').tooltip();
+$('#angular').tooltip();
+$('#dotnet').tooltip();
+$('#bootstrap').tooltip();
+$('#bower').tooltip();
+$('#csharp').tooltip();
+$('#css3').tooltip();
+$('#sublime').tooltip();
+$('#firebase').tooltip();
+$('#git').tooltip();
+$('#github').tooltip();
+$('#html5').tooltip();
+$('#sass').tooltip();
+$('#javascript').tooltip();
+$('#jquery').tooltip();
+$('#visualstudio').tooltip();
+$('#npm').tooltip();
+$('#oauth').tooltip();
+$('#sql').tooltip();
+$('#jasmine').tooltip();

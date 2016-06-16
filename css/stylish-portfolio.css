@@ -19,7 +19,7 @@ body {
 .techimg {       
     height: 100px;
     display: inline-block;
-    margin: 5px;
+    margin: .313em .313em 2.5em .313em;
 }
 
 .text-vertical-center {

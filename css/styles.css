@@ -80,13 +80,10 @@ h2 {
 #about-text-background {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 4px;
-<<<<<<< Updated upstream
 	max-height: 250px
-=======
 	padding: 24px;
 	/*max-height: 250px*/
->>>>>>> Stashed changes
-}
+}	
 
 #about.about {
 	background-image: url("http://img.photobucket.com/albums/v285/picturekid/NSS12siteCalloutBackground_zpsufphyzkj.jpg");
@@ -209,13 +206,11 @@ h2 {
 #footer-info-background {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 4px;
-<<<<<<< Updated upstream
 	max-width: 600px
 	margin-left: 50%;
 	margin-right: 50%
-=======
 	/*max-width: 600px;*/
->>>>>>> Stashed changes
+	margin: auto;
 }
 
 #footer-banner-text {

@@ -1,0 +1,7 @@
+
+@media (min-width: 0px) and (max-width: 767px) {
+		.class-photo-background {
+			width: 300px;
+			margin: 0px auto;
+		}
+	}

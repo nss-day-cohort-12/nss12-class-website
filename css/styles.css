@@ -80,7 +80,7 @@ h2 {
 #about-text-background {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 4px;
-	max-height: 250px
+	/*max-height: 250px*/
 }
 
 #about.about {
@@ -198,9 +198,8 @@ h2 {
 #footer-info-background {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 4px;
-	max-width: 600px
-	margin-left: 50%;
-	margin-right: 50%
+	/*max-width: 600px;*/
+	margin: auto;
 }
 
 #footer-banner-text {

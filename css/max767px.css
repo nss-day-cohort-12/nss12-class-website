@@ -1,7 +1,32 @@
 
 @media (min-width: 0px) and (max-width: 767px) {
+		
+		#index-classmate-name {
+			font-size: 1.5em;
+		}
+
 		.class-photo-background {
 			width: 300px;
+			margin: 0px auto 10px;
+		}
+
+		div.modal-dialog.row{
+			width: 355px;
+			margin: 0px auto 10px;
+		}
+
+		#modal-background {
+			width: 350px;
+			text-align: center;
+		}
+
+		#modal-background, .img-ourClass {
 			margin: 0px auto;
+		}
+
+		.modal-close-button {
+			text-align: right;
+		    padding-left: 275px;
+		    font-size: 1.9em;
 		}
 	}

@@ -1,5 +1,21 @@
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 		#index-classmate-name {
 			font-size: .9em;
 		}
+
+		#modal-background .modal-dialog-row {
+			width: 460px;
+			margin: 0px auto;
+		}
+
+		.modal-close-button {
+			text-align: right;
+		    padding-left: 185px;
+		    font-size: 1.5em;
+		}
+
+		.modal-close-button {
+			text-align: right;
+		    padding-left: 250px;
+		    font-size: 1.9em;
 	}

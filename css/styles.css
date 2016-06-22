@@ -25,7 +25,7 @@ body* {
 	background-color: rgba(255, 98, 36, 0.8);
 	border-radius: 3px;
 	border: 1px solid #8f2800;
-	box-shadow: inset 1px 1px 5px 2px #222;
+	box-shadow: 1px 1px 5px 2px #222;
 }
 
 
@@ -80,8 +80,10 @@ h2 {
 #about-text-background {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 4px;
+	max-height: 250px
+	padding: 24px;
 	/*max-height: 250px*/
-}
+}	
 
 #about.about {
 	background-image: url("http://img.photobucket.com/albums/v285/picturekid/NSS12siteCalloutBackground_zpsufphyzkj.jpg");
@@ -132,23 +134,30 @@ h2 {
                         inset  0 -15px 20px -8px #222;
 }
 
-#class-photo-bound {
-	width: 1200px;
-}
 
-#class-photo-background {
+
+.class-photo-background {
 	background-image: url(http://img.photobucket.com/albums/v285/picturekid/NSS12ClassPhotoB_zpsptgfu7pe.jpg);
 	padding: 11px;
-	margin: 5px;
 	box-shadow: 0px 2px 5px 2px #222;
 	border: 1px dotted #ff6224;
 	border-radius: 3px;	
 	box-shadow: inset 0px 3px 5px 4px #333;
+	margin-bottom: 16px;
 }
 
-.col-sm-3 {
-    width: calc(25% - 10px);
-}    
+.classmate-portrait-wrap .img-ourClass {
+	padding: 6px;;
+}
+
+.classmate-portrait a {
+		display: block;
+}
+
+.classmate-portrait-wrap .img-ourClass {
+	margin: 0 auto;
+}
+  
 
 #index-classmate-name {
 	padding: 5px 10px;
@@ -183,7 +192,6 @@ h2 {
 /*FOOTER*/
 #nssInfo {
 	background-image: url("http://img.photobucket.com/albums/v285/picturekid/NSS12siteCalloutBackground_zpsufphyzkj.jpg");
-	max-height: 275px;
 	padding-top: 10px;
 	border-bottom: 2px solid #1F3A41;
 
@@ -198,6 +206,9 @@ h2 {
 #footer-info-background {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 4px;
+	max-width: 600px
+	margin-left: 50%;
+	margin-right: 50%
 	/*max-width: 600px;*/
 	margin: auto;
 }
@@ -206,10 +217,15 @@ h2 {
 	color: white;
 }
 
+.center-block {
+	margin: 2px auto 8px auto;
+	float: none;
+	padding: 10px 0px;
+}
+
 
 
 /*SIDEBAR*/
 #sidebar-wrapper.active {
 	background-color: rgba(0, 0, 0, 0.8);
 }
-

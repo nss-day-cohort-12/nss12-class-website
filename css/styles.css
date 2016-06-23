@@ -2,6 +2,11 @@ body* {
 	box-sizing: border-box;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
+
 
 /*HEADER TOP PAGE*/
 #header-text-primary, #header-text-secondary {
@@ -64,17 +69,19 @@ body* {
 
 /*ABOUT US SECTION*/
 h2 {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 #about-us-title {
 	color: white;
+	padding-top: 10px;
 }
 
 #about-us-text {
 	font-size: 1.4em;
 	color: white;
 	letter-spacing: .5px;
+	padding-bottom: 10px;
 }
 
 #about-text-background {
@@ -82,7 +89,6 @@ h2 {
 	border-radius: 4px;
 	max-height: 250px
 	padding: 24px;
-	/*max-height: 250px*/
 }	
 
 #about.about {
@@ -183,13 +189,15 @@ h2 {
 .modal-title {
 	color: white; 
 	background-color: rgba(0, 0, 0, 1.0)
+
 }
 
 .modal-close-button {
 	text-align: right;
     padding-left: 250px;
-    font-size: 2.1em;
+    font-size: 2.5em;
     color: #CF4722;
+    cursor: pointer
 }
 
 

@@ -1,6 +1,21 @@
 
 @media (min-width: 0px) and (max-width: 767px) {
 		
+		#header-text-primary {
+			font-size: 2.7em; 
+		}
+
+		#header-text-secondary {
+			font-size: 2.1em;
+		}
+
+		#meet-class-text {
+			font-size: 1.5em;
+		}
+		#meet-cohort-text {
+			font-size: 3em;
+		}
+
 		#index-classmate-name {
 			font-size: 1.5em;
 		}
@@ -27,6 +42,6 @@
 		.modal-close-button {
 			text-align: right;
 		    padding-left: 275px;
-		    font-size: 1.9em;
+		    font-size: 2em;
 		}
 	}
